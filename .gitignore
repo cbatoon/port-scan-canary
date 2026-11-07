@@ -1,0 +1,17 @@
+# Build output
+build/
+out/
+*.class
+
+# Jars are published as release assets instead of committed
+*.jar
+
+# Runtime logs
+log.txt
+*.log
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.DS_Store

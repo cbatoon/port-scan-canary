@@ -1,0 +1,7 @@
+# CanaryJ parameters: same tokens as the command line.
+# Usage: java -jar CanaryJ.jar examples/params.in
+
+--syslog 127.0.0.1:514
+
+tcp 21 22 23 80 443 3389 8080   # FTP, SSH, Telnet, HTTP, HTTPS, RDP, alt-HTTP
+udp 53 69 161                   # DNS, TFTP, SNMP
